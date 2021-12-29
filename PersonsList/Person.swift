@@ -41,3 +41,29 @@ extension Person {
         return persons
     }
 }
+
+let personList = Person.getPersonsList()
+
+struct Objects {
+    
+    let sectionName: String
+    let sectionObjectPhone: String
+    let sectionObjectEmail: String
+    
+}
+
+extension Objects {
+    static func getSectionObjects() -> [Objects] {
+        
+        var objects = [Objects]()
+        
+        for person in personList {
+            let object = Objects (sectionName: person.fullName, sectionObjectPhone: person.phone, sectionObjectEmail: person.email)
+            objects.append(object)
+        }
+        
+        return objects
+    }
+}
+
+let personObject = Objects.getSectionObjects()

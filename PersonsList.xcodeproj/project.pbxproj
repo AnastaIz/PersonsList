@@ -16,6 +16,7 @@
 		A9A9C02B277B2F2E0076AC6C /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9C02A277B2F2E0076AC6C /* DataManager.swift */; };
 		A9A9C02D277B33130076AC6C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9C02C277B33130076AC6C /* Person.swift */; };
 		A9A9C02F277B3EF60076AC6C /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9C02E277B3EF60076AC6C /* PersonDetailsViewController.swift */; };
+		A9A9C031277B4DDA0076AC6C /* PersonsListWithSectionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A9C030277B4DDA0076AC6C /* PersonsListWithSectionsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A9A9C02A277B2F2E0076AC6C /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		A9A9C02C277B33130076AC6C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		A9A9C02E277B3EF60076AC6C /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		A9A9C030277B4DDA0076AC6C /* PersonsListWithSectionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListWithSectionsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				A9A9C01A277B25280076AC6C /* Main.storyboard */,
 				A9A9C02E277B3EF60076AC6C /* PersonDetailsViewController.swift */,
 				A9A9C028277B27370076AC6C /* PersonsListViewController.swift */,
+				A9A9C030277B4DDA0076AC6C /* PersonsListWithSectionsTableViewController.swift */,
 				A9A9C02C277B33130076AC6C /* Person.swift */,
 				A9A9C02A277B2F2E0076AC6C /* DataManager.swift */,
 				A9A9C01D277B25290076AC6C /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				A9A9C02D277B33130076AC6C /* Person.swift in Sources */,
 				A9A9C015277B25280076AC6C /* AppDelegate.swift in Sources */,
+				A9A9C031277B4DDA0076AC6C /* PersonsListWithSectionsTableViewController.swift in Sources */,
 				A9A9C02F277B3EF60076AC6C /* PersonDetailsViewController.swift in Sources */,
 				A9A9C02B277B2F2E0076AC6C /* DataManager.swift in Sources */,
 				A9A9C029277B27370076AC6C /* PersonsListViewController.swift in Sources */,
